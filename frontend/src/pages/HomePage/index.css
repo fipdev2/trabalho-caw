@@ -1,0 +1,9 @@
+.divContainer{
+    height:100vh;
+    width:100%;
+    /* background-color: aqua;  */
+    background-image: url('../../assets/TV\ -\ 1.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

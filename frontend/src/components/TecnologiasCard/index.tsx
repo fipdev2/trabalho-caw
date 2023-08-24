@@ -1,5 +1,5 @@
 
-
+import './index.css'
 function TecnologiasCard({ tecnologias }: any) {
     return (
         <div className="tecnologiasWrapper">

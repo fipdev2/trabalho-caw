@@ -1,9 +1,10 @@
 .tecnologiasWrapper {
+    display:flex;
     border-radius: 8px;
     border: 2px solid #000;
-    background-color: #FFF;
+    background-color: #fff;
     box-shadow: 5px 5px 0px 0px #000;
-    padding:8px;
-    gap:8px;
-    width:auto;
+    padding: 8px;
+    gap: 0.5rem;
+    width: fit-content;
 }

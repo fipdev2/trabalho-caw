@@ -1,25 +1,65 @@
-main{
+main {
     display: flex;
-    min-height:502px;
-    min-width:950px;
+    width: 950px;
     box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.80);
     border: 2px solid #000;
     background-color: #00FFD1;
-    padding:48px;
+    padding: 48px;
     flex-direction: column;
-    
+    justify-content: space-evenly;
+
 }
-.alunoFoto{
-    width: 244px;
-    height:317px;
+
+.fotoWrapper {
+    width: 380px;
+    height: 350px;
+    border-radius: 32px;
+    border-top: 2px solid #000;
+    border-right: 7px solid #000;
+    border-bottom: 7px solid #000;
+    border-left: 2px solid #000;
+    overflow: hidden;
 }
-.navBar{
-    width:244px;
-    display:flex;
+
+.alunoFoto {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.navBar {
+    width: 260px;
+    display: flex;
     justify-content: space-between;
+    margin-bottom: 16px;
 }
-.fotoAndTextWrapper{
-    display:flex;
+
+
+.navBar a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.navBar a {
+    font-size: 20px;
+  }
+
+.botaoAtivo {
+    border-bottom: 3px solid #EE06F2;
+}
+
+.fotoAndTextWrapper {
+    display: flex;
     flex-direction: row;
-    gap:48px;
+    gap: 48px;
+    height:100%;
 }
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    height:100%;
+
+}
+

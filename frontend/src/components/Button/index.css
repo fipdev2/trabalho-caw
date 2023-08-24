@@ -1,0 +1,20 @@
+.githubButton {
+    display:flex;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #F8FE56;
+    box-shadow: 5px 5px 0px 0px #000;
+    padding: 0rem 1rem;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+    width:fit-content;
+    align-self:flex-end;
+    margin-top:65px;
+    text-decoration: none;
+    
+}
+.githubButton:hover{
+    opacity: 0.5;
+}
+

@@ -1,2 +1,8 @@
-# trabalho-caw
-Pequeno site utilizando React, para a disciplina de construção de aplicações web
+# CAW (Web application construction) Homework
+Just a small landing page for showing the class how React framework works
+
+
+# 🚀 Deploy :
+https://trabson-2caw.vercel.app
+
+see ya 👋

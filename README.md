@@ -2,7 +2,7 @@
 Just a small landing page for showing the class how React framework works
 
 
-# 🚀 Deploy :
+## 🚀 Deploy :
 https://trabson-2caw.vercel.app
 
 see ya 👋
